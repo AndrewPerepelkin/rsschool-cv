@@ -1,0 +1,35 @@
+body {
+    padding: 30px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    background-color: #ccc;
+    max-width: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.avatar {
+    float: right;
+    margin-left: 20px;
+}
+
+ul {
+    padding-inline-start: 0px;
+    margin: 0;
+} 
+
+li {
+    margin: 0px;
+    list-style: none;
+}
+
+p {
+    margin: 0px;
+}
+
+pre {
+    margin: 0;
+}
