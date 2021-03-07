@@ -1,15 +1,20 @@
 body {
-    padding: 30px;
-    padding-bottom: 50px;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
     background-color: rgb(238, 236, 253);
-    width: 1000px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
 header {
-    width: 600px;
+    width: 1000px;
+    margin: 0 auto;
     margin-bottom: 5px;
+    text-align: left;
 }
 
 h1 {
@@ -38,7 +43,7 @@ aside {
     height: 100%;
 }
 
-figure {
+.avatar-container {
     width: 300px;
     padding: 30px 0;
     margin: 0 50px;
@@ -149,9 +154,11 @@ footer {
     width: 100%;
 }
 
+.footer-img-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 footer img{
-    padding-left: 500px;
-    padding-bottom: 50px;
-    padding-top: 50px;
     width: 400px;
 }
