@@ -5,14 +5,30 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container {
+.row {
+    max-width: 1000px;
     margin: 0 auto;
-    width: 1000px;
+    display: flex;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.col:not(.col:first-child) {
+    margin-left: 24px;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-1 {
+    flex: 1;
 }
 
 header {
-    width: 1000px;
-    margin: 0 auto;
     margin-bottom: 5px;
     text-align: left;
 }
@@ -36,11 +52,10 @@ color: rgb(2, 0, 134);
 }
 
 aside {
-    margin-top: -100px;
-    width: 400px;
-    float: right;
     text-align: right;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0;
 }
 
 .avatar-container {
@@ -61,7 +76,8 @@ aside {
     width: 300px;
     color: rgb(206, 213, 221);
     padding: 50px;
-    min-height: 100vh;
+    flex: 1 0 0;
+    max-height: 350px;
 }
 
 .icon {
