@@ -7,38 +7,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrew Perepelkin - CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="title">Andrew Perepelkin</h1>
-        <img class="avatar"
-            src="https://sun9-37.userapi.com/impg/N9E-3YEEAmMFIsvTDC_-ON7rz3TqH2UZ5hDXUA/FdClAqiagLc.jpg?size=140x176&quality=96&sign=e8c97cc53f28518d5e00b2ea7accd547&type=album"
-            alt="Andrew Perepelkin">
+    <header>
+        <h1 class="title">Andrew <span>Perepelkin</span></h1>
+    </header>
 
-        <h2>Contacts:</h2>
-        <ul>
-            <li>Email: avperepelkin@yahoo.com</li>
-        </ul>
+    <aside>
+        <figure>
+            <img class="avatar" src="/src/img/avatar/av.jpg" alt="Andrew Perepelkin">
+        </figure>
+        <div class="discription">
+            <div class="about">
+                <h3>About me:</h3>
+                <div class="profile">
+                    <p>I have been working as a system administrator and user technical support engineer for about 5
+                        years.I
+                        learn new technologies easily and with interest. I am attentive to the little things. I am
+                        focused
+                        on
+                        results.</p>
+                </div>
+            </div>
 
-        <h2>Profile:</h2>
-        <div class="profile">
-            <p>I have been working as a system administrator and user technical support engineer for about 5 years. I
-                learn new technologies easily and with interest. I am attentive to the little things. I am focused on
-                results.</p>
+            <div class="contacts">
+                <h3>Contacts:</h3>
+                <ul>
+                    <li>
+                        <div class="icon">
+                            <img src="./src/img/icons/email.png" alt="email">
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-name">
+                                Email
+                            </div>
+                            <div>
+                                avperepelkin@yahoo.com
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
         </div>
 
-        <h2>Skills:</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React-Redux</li>
-            <li>version control system - Git</li>
-        </ul>
+    </aside>
 
-        <h2>Code example:</h2>
-        <pre><code>
+
+    <article>
+        <h2 class="sub-title">JavaScript Frontend Developer</h2>
+        <hr>
+
+        <section>
+            <h3>Work experience:</h3>
+            <p>Will be soon...</p>
+        </section>
+
+        <section class="edu">
+            <h3>Education:</h3>
+            <ul>
+                <li>
+                    <h4> Saint Petersburg National Research University of Information Technologies, Mechanics and ptics,
+                        Saint-Petersburg</h4>
+                    <h5>Computer technology and control, Electric drive and automation of industrial plants and
+                        technological complexes</h5>
+
+                </li>
+                <li>
+                    <h4> ReactJS</h4>
+                    <h5>Udemy.com</h5>
+
+                </li>
+                <li>
+                    <h4> Read and completed assignments from learn.javascript.ru</h4>
+                </li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h3>Skills:</h3>
+            <ul class="skills-list">
+                <li>
+                    <div>
+                        <h4>HTML</h4>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>CSS</h4>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>JavaScript</h4>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>React-Redux</h4>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>Git</h4>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Code example:</h3>
+            <pre><code>
 function shuffle(array) {
     function compareRandom(a, b) {
         a = Math.random();
@@ -48,21 +133,21 @@ function shuffle(array) {
     array.sort(compareRandom)
 };
                 </code></pre>
+        </section>
 
-        <h2>Work experience:</h2>
+        <section>
+            <h3>English language:</h3>
+            <h4>Basic knowledgen (A2)</h4>
+        </section>
 
-        <h2>Education:</h2>
-        <ul>
-            <li>Saint Petersburg National Research University of Information Technologies, Mechanics and Optics, Saint
-                Petersburg <i>(Computer technology and control, Electric drive and automation of industrial plants and
-                    technological complexes)</i></li>
-            <li>ReactJS <i>(Udemy.com)</i></li>
-            <li>Read and completed assignments from learn.javascript.ru</li>
-        </ul>
+    </article>
 
-        <h2>English language:</h2>
-        <p>Basic knowledgen (A2)</p>
-    </div>
+    <footer>
+        <figure>
+            <img src="https://rs.school/images/rs_school_js.svg" alt="RSShool">
+        </figure>
+    </footer>
+
 </body>
 
 </html>

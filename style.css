@@ -2,18 +2,93 @@ body {
     padding: 30px;
     padding-bottom: 50px;
     margin: 0 auto;
-    background-color: #ccc;
-    max-width: 600px;
+    background-color: rgb(238, 236, 253);
+    width: 1000px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2 {
+header {
+    width: 600px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Shippori Mincho', serif;
+    text-transform: uppercase;
     margin-bottom: 0;
 }
 
-.avatar {
+h1 span {
+color: rgb(2, 0, 134);
+}
+
+.sub-title {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: 'Shippori Mincho', serif;
+}
+
+aside {
+    margin-top: -100px;
+    width: 400px;
     float: right;
-    margin-left: 20px;
+    text-align: right;
+    height: 100%;
+}
+
+figure {
+    width: 300px;
+    padding: 30px 0;
+    margin: 0 50px;
+}
+
+
+.avatar {
+    border-radius: 50%;
+    width: 300px;
+    margin: 0;
+}
+
+.discription {
+    background-color: rgb(0,34, 69);
+    width: 300px;
+    color: rgb(206, 213, 221);
+    padding: 50px;
+    min-height: 100vh;
+}
+
+.icon {
+    color: rgb(0,34, 69);
+    display: block;
+    float: right;
+}
+
+.icon img {
+    background-color: rgb(0,34, 69);
+    width: 40px;
+    margin: 0 0 0 10px;
+}
+
+.contact-name {
+    font-size: 1.2em;
+}
+
+article {
+    width: 600px;
+}
+
+section {
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -26,10 +101,57 @@ li {
     list-style: none;
 }
 
+.edu li {
+    margin-bottom: 0px;
+    padding: 0px 30px 30px 50px;
+    list-style: none;
+    background-image: url(./src/img/icons/mark2.png);
+    background-repeat: no-repeat;
+    background-size: 40px 30px;
+}
+
+.skills li {
+    margin-bottom: 5px;
+    padding: 0 10px 0px 35px;
+    list-style: none;
+    background-image: url(./src/img/icons/mark.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -10px;
+    margin: 0;
+    padding-top: 0;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
 p {
     margin: 0px;
 }
 
 pre {
     margin: 0;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: rgb(0,34, 69);
+    margin: 0;
+    width: 100%;
+}
+
+footer img{
+    padding-left: 500px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 400px;
 }
