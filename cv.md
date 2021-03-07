@@ -12,28 +12,22 @@
 * I am focused on results.
 
 ## **Skills:**
-I myself went through HTML, CSS, JavaScript and React, did educational projects:
-* Read and completed assignments from learn.javascript.ru
-* also looked at several open courses on YouTube
-* the basics of working with the Git version control system (creating a commit, push, merge, pull, fetch branches)
+* HTML
+* CSS
+* JavaScript
+* React-Redux
+* version control system Git
 
 ## **Sample code:**
 ```
-import React from 'react';
-import Dialog from './Dialog/Dialog';
-import stl from './DialogsItems.module.css';
-
-const DialogsItems = (probs) => {
-    const dialogsElements = probs.dialogsData
-        .map(dialog => <Dialog name={dialog.name} id={dialog.id} />);
-
-    return (
-        <div className={stl.dialogsItems}>
-            {dialogsElements}
-        </div>
-    );
-}
-export default DialogsItems;
+function shuffle(array) {
+    function compareRandom(a, b) {
+        a = Math.random();
+        b = Math.random();
+        return a - b;
+    }
+    array.sort(compareRandom)
+};
 ```
 
 ## **Work experience:**
